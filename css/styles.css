@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav .right-contact {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+nav .right-contact .right-contact-icon {
+    width: 20%;
+}
+
+nav .right-contact .right-contact-text {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+nav .right-contact .right-contact-text #roadtext {
+    color: grey;
+}
+
+/* main styling */
+
+main {
+    /* height: 91vh; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+main .container .left-section {
+    width: 55%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color:#E2E6E9; */
+}
+
+main .container .left-section .content {
+    width: 80%;
+}
+
+main .container .left-section h1 {
+    width: 100%;
+    font-size: 58px;
+}
+
+/* Button */
+main .container .left-section .orangebtn {
+    width: 35%;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5%;
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    border: 0;
+    color: #fff;
+}
+
+main .container .left-section .time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.time-section img {
+    width: 60%;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+
+.time-text .lightgrey {
+    color: grey;
+}
+
+main .container .right-img {
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/pexel.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .container .right-img #services {
+    margin-left: -20%;
+}
+
+main .container .right-img #ratings {
+    margin-left: 50%;
+}
+
+/* Quote Section */
+
+.quote-section {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E6E9
+}
+
+.quote-section .container {
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.quote-section .container .quote-left {
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.quote-section .container .quote-left h1 {
+    width: 100%;
+    font-size: 58px;
+}
+
+.flex {
+    display: flex;
+}
+
+.quote-section .container .quote-left .left-section ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.quote-section .container .quote-left .left-section ul li {
+    margin-bottom: 20px;
+}
+
+.quote-section .container .quote-left .left-section ul li .imagebox {
+    margin-right: 10px;
+}
+
+.quote-section .container .quote-left .left-section ul li .imagebox img {
+    width: 80%;
+}
+
+.quote-section .container .quote-left .left-section ul li h5 {
+   margin-top: 5px;
+   font-size: 24px;
+}
+
+.quote-section .container .quote-left .left-section ul li p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: grey;
+}
+
+/* know more */
+.quote-section .container .quote-left .left-section ul li .more {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section .container .quote-left .left-section ul li .more p a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote-section .container .quote-left .left-section ul li .more img {
+    margin-top: -15px;
+    margin-left: 140px;
+    width:30px;
+}
+
+
+.quote-section .container .quote-right {
+    width: 50%;
+    height: 100%;
+    margin-right: 10%;
+    padding: 10px
+
+}
+
+.quote-section .container .quote-right h3 {
+    margin-top: 8px;
+    width: 90%;
+    font-size: 45px;
+}
+
+.quote-section .container .quote-right form {
+    margin-top: 10px;
+}
+
+.quote-section .container .quote-right .inputbox {
+  width: 90%;
+  height: 65px
+}
+
+.quote-section .container .quote-right input {
+    margin-bottom: 10px;
+    height: 60px;
+    width: 110%;
+    padding: 10px 30px;
+    border:0;
+}
+
+::placeholder{ color: grey}
+
+.quote-section .container .quote-right .orangebtn {
+    width: 35%;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    border: 0;
+    color: #fff;
+}
+
+
+/* Booking Section */
+
+.booking-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-section .container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.booking-section .container .booking-left {
+    width: 55%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-section .container .booking-left .left-section {
+    margin-top: 210px;
+    position: absolute;
+    transform: translate(0, -50%);
+    width: 510px;
+}
+
+.booking-section .container .booking-left .left-section h1 {
+    font-size: 58px;
+}
+
+.booking-section .container .booking-left p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: grey;
+}
+
+/* button */
+.booking-section .container .booking-left .orangebtn{
+    width: 35%;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    border: 0;
+    color: #fff;
+}
+
+.booking-section .container .booking-right {
+    width: 50%;
+    margin-right: 10%;
+    background-color: orange;
+}
+
+.booking-section .container .booking-right .right-section ul {
+    list-style: none;
+}
+
+.booking-section .container .booking-right .right-section ul li {
+    margin-bottom: 40px;
+}
+
+.booking-section .container .booking-right .right-section ul li .imagebox {
+    margin-right: 10px;
+}
+
+.booking-section .container .booking-right .right-section ul li .imagebox img {
+    width: 80%;
+}
+
+.booking-section .container .booking-right .right-section ul li h3 {
+   margin-top: 5px;
+   font-size: 32px;
+}
+
+/* Line */
+.line{
+        margin-left: 25px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        height: 50%;
+        border-left: 2px dashed #FF6433;
+}
+
+.booking-section .container .booking-right .right-section ul li p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: grey;
+}
+
+/* Offer Section */
+.offerd-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.offerd-section .container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.offerd-section .container .offerd-center {
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.offerd-section .container .offerd-center h2 {
+    font-size: 58px;
+}
+
+.offerd-section .container .offerd-center h4 {
+    font-size: 24px;
+}
+
+.offerd-section .container .offerd-center .flex-services {
+    flex-direction: column;
+    border: 5px;
+   }
+   
+   .offerd-section .container .offerd-center .flex-services .flex-box {
+   width: 140px;
+   height: 140px;
+   margin-right: 15px;
+   margin-bottom: 15px;
+ }
+ .offerd-section .container .offerd-center .flex-services .flex-box p{
+   font-size: 14px;
+ }
